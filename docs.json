@@ -29,23 +29,47 @@
     "groups": [
       {
         "group": "Get started",
-        "pages": ["index", "quickstart", "signing-in", "the-dashboard"]
+        "pages": [
+          "index",
+          "quickstart",
+          "signing-in",
+          "the-dashboard"
+        ]
       },
       {
         "group": "Your workspace",
-        "pages": ["properties", "buyers", "opportunities", "deals"]
+        "pages": [
+          "properties",
+          "buyers",
+          "viewings",
+          "opportunities",
+          "deals"
+        ]
       },
       {
         "group": "Network & trust",
-        "pages": ["circles", "vouches", "your-public-card", "stats"]
+        "pages": [
+          "circles",
+          "vouches",
+          "your-public-card",
+          "stats"
+        ]
       },
       {
         "group": "Tools & settings",
-        "pages": ["brokerbuddy", "data-connections", "notifications", "settings"]
+        "pages": [
+          "brokerbuddy",
+          "data-connections",
+          "notifications",
+          "settings"
+        ]
       },
       {
         "group": "Reference",
-        "pages": ["glossary", "faq"]
+        "pages": [
+          "glossary",
+          "faq"
+        ]
       }
     ]
   },

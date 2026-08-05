@@ -2,78 +2,11 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "BrokerBroker Help",
+  "description": "How to use the BrokerBroker broker portal — list properties, register buyers, match, co-broke, and build your reputation.",
   "colors": {
     "primary": "#ff7550",
     "light": "#ff8f70",
     "dark": "#ef5a34"
-  },
-  "favicon": "/logo/logo.png",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "groups": [
-      {
-        "group": "Get started",
-        "pages": [
-          "index",
-          "quickstart",
-          "signing-in",
-          "the-dashboard"
-        ]
-      },
-      {
-        "group": "Your workspace",
-        "pages": [
-          "properties",
-          "buyers",
-          "opportunities",
-          "deals"
-        ]
-      },
-      {
-        "group": "Network & trust",
-        "pages": [
-          "circles",
-          "vouches",
-          "your-public-card",
-          "stats"
-        ]
-      },
-      {
-        "group": "Tools & settings",
-        "pages": [
-          "brokerbuddy",
-          "data-connections",
-          "notifications",
-          "settings"
-        ]
-      },
-      {
-        "group": "Reference",
-        "pages": [
-          "glossary",
-          "faq"
-        ]
-      }
-    ]
-  },
-  "logo": {
-    "light": "/logo/logo.png",
-    "dark": "/logo/logo.png"
-  },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Open the portal",
-      "href": "https://my.brokerbroker.app"
-    }
   },
   "contextual": {
     "options": [
@@ -87,10 +20,45 @@
       "vscode"
     ]
   },
+  "favicon": "/logo/logo.png",
+  "logo": {
+    "light": "/logo/logo.png",
+    "dark": "/logo/logo.png"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get started",
+        "pages": ["index", "quickstart", "signing-in", "the-dashboard"]
+      },
+      {
+        "group": "Your workspace",
+        "pages": ["properties", "buyers", "opportunities", "deals"]
+      },
+      {
+        "group": "Network & trust",
+        "pages": ["circles", "vouches", "your-public-card", "stats"]
+      },
+      {
+        "group": "Tools & settings",
+        "pages": ["brokerbuddy", "data-connections", "notifications", "settings"]
+      },
+      {
+        "group": "Reference",
+        "pages": ["glossary", "faq"]
+      }
+    ]
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Open the portal",
+      "href": "https://my.brokerbroker.app"
+    }
+  },
   "footer": {
     "socials": {
       "website": "https://brokerbroker.app"
     }
-  },
-  "description": "How to use the BrokerBroker broker portal — list properties, register buyers, match, co-broke, and build your reputation."
+  }
 }

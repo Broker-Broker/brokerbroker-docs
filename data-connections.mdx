@@ -1,10 +1,9 @@
 ---
 title: "Data connections"
-description: "Sync your listings automatically from Loop CRM."
-icon: "plug"
+description: "Sync your listings and buyers from Loop CRM."
 ---
 
-**Data connections** let you bring listings in from an external CRM instead of adding them by hand. Today that's **Loop** (available in supported markets, currently the UK).
+**Data connections** let you bring data in from an external CRM instead of adding it by hand. Today that's **Loop** (available in supported markets, currently the UK). Connecting Loop imports your **listings** and also feeds your **buyers** into matching.
 
 Find it under **Settings → Data connections**.
 
@@ -15,7 +14,7 @@ Find it under **Settings → Data connections**.
     If Loop is available for your market, you'll see it here. If you don't see it, your market isn't eligible yet.
   </Step>
   <Step title="Connect">
-    Enter your Loop details and connect. Use **Test connection** first if you want to confirm the credentials before saving.
+    Enter your Loop **API key** (required). You can optionally add your Loop **User ID** to scope which listings import. Use **Test connection** first if you want to confirm it before saving.
   </Step>
   <Step title="Sync">
     Your Loop listings sync into BrokerBroker. Use **Sync now** to pull the latest at any time.
@@ -25,6 +24,8 @@ Find it under **Settings → Data connections**.
 ## After syncing
 
 Imported properties appear under [Properties](/properties) like any other listing. Review them, set your **sub-agent fee**, and **launch** the ones you want on the network — importing doesn't launch them automatically.
+
+Your Loop **buyers** sync too (privately — no personal details are stored) and are matched against other brokers' live listings. Those matches appear in the **From your CRM** lane under [Opportunities](/opportunities).
 
 ## Disconnect
 

@@ -17,15 +17,25 @@ Find it under **Settings → Data connections**.
     Enter your Loop **API key** (required). You can optionally add your Loop **User ID** to scope which listings import. Use **Test connection** first if you want to confirm it before saving.
   </Step>
   <Step title="Sync">
-    Your Loop listings sync into BrokerBroker. Use **Sync now** to pull the latest at any time.
+    Your Loop listings sync into BrokerBroker. Syncing then runs **on a schedule** — you don't have to trigger it. Use **Sync now** when you want the latest immediately.
   </Step>
 </Steps>
+
+<Note>
+  A connection whose test fails can still be saved — you'll see **Connection saved — test failed, edit credentials to retry**. Nothing syncs until the credentials work, so fix them before assuming the import is running.
+</Note>
+
+## Checking it is working
+
+The page shows where the connection stands: **Connected** or **Disconnected**, the **last successful sync**, the **next sync**, and how many **properties imported**.
+
+If listings aren't appearing, this is the first place to look — a connection can read as saved while the last successful sync is empty.
 
 ## After syncing
 
 Imported properties appear under [Properties](/properties) like any other listing. Review them, set your **sub-agent fee**, and **launch** the ones you want on the network — importing doesn't launch them automatically.
 
-Your Loop **buyers** sync too (privately — no personal details are stored) and are matched against other brokers' live listings. Those matches appear in the **From your CRM** lane under [Opportunities](/opportunities).
+Your Loop **buyers** sync too (privately — no personal details are stored) and are matched against other brokers' live listings. Those matches appear in **From your Loop CRM** under [Opportunities](/opportunities).
 
 ## Disconnect
 

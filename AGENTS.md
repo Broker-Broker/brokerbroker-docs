@@ -34,6 +34,7 @@ different software.
 | **Deals** | transactions |
 | **Buddy Score** | rating, score |
 | **co-broke** | split deal, shared deal |
+| **Buyer Finder Split Fee**, capitalised as a name | sub-agent fee, co-broke fee. The glossary keeps the old name once, so a broker who learned it can find the new one |
 
 If you introduce a term that is not here, check how the app labels it first.
 
